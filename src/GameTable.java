@@ -104,7 +104,7 @@ public class GameTable {
             if(k%2==1){
                 System.out.println("Board");
                 printTheTable();
-                System.out.println("Player X's turn. Enter the row and column (1-3):");
+                System.out.println("Player X's turn. Enter the row and column (1-3): ");
                 Scanner scanner=new Scanner(System.in);
                 while(true){
                 int row=scanner.nextInt()-1;
